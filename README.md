@@ -1,4 +1,8 @@
-# Led-control-using-Arduino
+### NAME : MATHAVAN V
+### REG.NO : 212223110026
+
+
+#  EX-NO : 1    Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -57,10 +61,42 @@ Security System Indicator </br>
 Emergency Signaling System </br>
 Weighing Machines </br>
 
-## CIRCUIT DIAGRAM
+## CIRCUIT DIAGRAM:
+<img width="1197" height="831" alt="image" src="https://github.com/user-attachments/assets/f6f8d87e-6dd3-4ee7-b8bf-f3e9ec75df92" />
 
-## PROGRAM
 
-## OUTPUT
 
-## RESULT
+## PROGRAM:
+```
+void setup() {
+  pinMode(10,OUTPUT);
+  pinMode(4,INPUT);
+}
+
+void loop() {
+  int button_status=digitalRead(4);
+  if (button_status==HIGH)
+  {
+    digitalWrite(10,HIGH);
+    delay(100);
+    digitalWrite(10,LOW);
+    delay(100);
+  }
+  else
+  {
+    digitalWrite(10,LOW);
+  }
+
+}
+```
+
+
+## OUTPUT:
+
+<img width="1228" height="838" alt="image" src="https://github.com/user-attachments/assets/7e42ecfb-d862-469d-be96-e9fc343fc1e7" />
+>
+
+
+
+## RESULT:
+Thus, to design and implement a system for LED control using an Arduino microcontroller and a push button has completed and verified successfully.
