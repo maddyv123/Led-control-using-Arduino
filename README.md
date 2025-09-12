@@ -2,7 +2,7 @@
 ### REG.NO : 212223110026
 
 
-#  EX-NO : 1    Led control using Arduino
+#  EX NO : 1    Led control using Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -68,34 +68,34 @@ Weighing Machines </br>
 
 ## PROGRAM:
 ```
-void setup() {
-  pinMode(10,OUTPUT);
-  pinMode(4,INPUT);
+void setup()
+{
+  pinMode(13,OUTPUT);
+  pinMode(2,INPUT);
 }
-
-void loop() {
-  int button_status=digitalRead(4);
-  if (button_status==HIGH)
+void loop()
+{
+  int status = digitalRead(2);
+  if(status == HIGH)
   {
-    digitalWrite(10,HIGH);
+     digitalWrite(13,HIGH);
     delay(100);
-    digitalWrite(10,LOW);
+    digitalWrite(13,LOW);
     delay(100);
   }
   else
-  {
-    digitalWrite(10,LOW);
-  }
-
+    digitalWrite(13,LOW);
 }
 ```
 
 
 ## OUTPUT:
+## SWITCH ON
+<img width="1028" height="726" alt="image" src="https://github.com/user-attachments/assets/06deb113-7c69-4f15-9962-d9d2bcb127e7" />
 
-<img width="1228" height="838" alt="image" src="https://github.com/user-attachments/assets/7e42ecfb-d862-469d-be96-e9fc343fc1e7" />
->
 
+## SWITCH OFF
+<img width="1027" height="720" alt="image" src="https://github.com/user-attachments/assets/589e18be-1764-438c-b0ac-eb78baa746c5" />
 
 
 ## RESULT:
