@@ -91,11 +91,13 @@ void loop()
 
 ## OUTPUT:
 ## SWITCH ON
-<img width="1028" height="726" alt="image" src="https://github.com/user-attachments/assets/06deb113-7c69-4f15-9962-d9d2bcb127e7" />
+<img width="825" height="562" alt="image" src="https://github.com/user-attachments/assets/20fb9748-e2c7-4112-b11c-eb2717143dc8" />
+
 
 
 ## SWITCH OFF
-<img width="1027" height="720" alt="image" src="https://github.com/user-attachments/assets/589e18be-1764-438c-b0ac-eb78baa746c5" />
+
+<img width="1090" height="572" alt="image" src="https://github.com/user-attachments/assets/e60116fb-dd54-4db5-b689-36a14bc90d74" />
 
 
 ## RESULT:
