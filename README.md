@@ -7,7 +7,7 @@
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
 
-## COMPONENTS REQUIRED
+## COMPONENTS REQUIRED 
 Arduino </br>
 Led </br>
 Resistance </br>
